@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pandafood/components/body/Body.dart';
-import 'package:pandafood/components/body/appbar/PandaAppBar.dart';
+import 'package:pandafood/components/appbar/PandaAppBar.dart';
 
 class Home extends StatelessWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pandafood/components/body/appbar/PandaIconButton.dart';
+import 'package:pandafood/components/appbar/PandaIconButton.dart';
 
 pandaAppBar() {
   return AppBar(
