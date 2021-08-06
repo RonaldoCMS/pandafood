@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:pandafood/components/body/selectionBar/card/pandaCard.dart';
+import 'package:pandafood/components/pandaList/selectionBar/card/pandaCard.dart';
 
 selectionBar(BuildContext context) {
   return Column(
