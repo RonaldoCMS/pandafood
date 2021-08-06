@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:pandafood/components/body/header/pandaBoxDecoration.dart';
-import 'package:pandafood/components/body/header/pandaTitleBox.dart';
+
+import 'box/pandaBoxDecoration.dart';
+import 'box/pandaTitleBox.dart';
 
 pandaHeader(size) {
   return Stack(children: [

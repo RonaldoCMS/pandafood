@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'components/Home.dart';
+import 'components/menuPranzo/MenuPranzo.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,6 +16,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Panda Food', debugShowCheckedModeBanner: false, home: Home());
+        initialRoute: '/',
+        routes: {
+          '/menuPranzo': (context) => MenuPranzo(),
+        },
+        title: 'Panda Food',
+        debugShowCheckedModeBanner: false,
+        home: Home());
   }
 }
